@@ -1,0 +1,1 @@
+export const SET_TIE_LIST = 'set_tie_list'

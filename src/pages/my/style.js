@@ -1,0 +1,72 @@
+const styles = {
+    my_wrapper:{
+        position:'absolute',
+        top:'0',
+        bottom:'45px',
+        left:0,
+        right:0,
+        background:'#f5f5f5',
+    },
+    my_top:{
+        display:'flex',
+        height:'150px',
+        padding:'20px 15px',
+        boxSizing:'border-box',
+        background:'#0ab00a',
+    },
+    avatar:{
+        marginRight:'15px',
+        width:'60px',
+        height:'60px',
+        borderRadius:'50px'
+    },
+    info_wrapper:{
+        flex:1,
+        color:'#fff',
+    },
+    info:{
+        paddingTop:'5px',
+        paddingBottom:'10px',
+        fontSize:'14px',
+        borderBottom:'1px solid #fff'
+    },
+    name:{
+        marginBottom:'15px',
+        fontSize:'18px',
+    },
+    module:{
+        display:'flex',
+        marginTop:'10px',
+    },
+    moduleItem:{
+        position:'relative',
+        padding:'5px 0',
+        marginRight:'15PX',
+    },
+    bot:{
+        position:'absolute',
+        top:0,
+        left:'50%',
+        width:'12px',
+        height:'12px',
+        background:'red',
+        color:'#fff',
+        fontSize:'10px',
+        lineHeight:'14px',
+        borderRadius:'30px',
+        textAlign:'center'
+    },
+    list:{
+        marginTop:'10px',
+        background:'#fff'
+    },
+    listItem:{
+        marginLeft:'10px',
+        paddingRight:'10px',
+        lineHeight:'45px',
+        color:'#000',
+        borderBottom:'1px solid #eee',
+        fontSize:'15px',
+    }
+}
+export default styles
