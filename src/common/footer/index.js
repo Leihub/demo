@@ -3,6 +3,7 @@ import { FooterWrapper, FooterItem } from './style'
 import { BrowserRouter as Router, Route, NavLink  } from 'react-router-dom'
 import Index from '../../pages/index'
 import My from '../../pages/my'
+import Add from '../../pages/add'
 
 
 const Footer = () => {
@@ -24,6 +25,7 @@ const Footer = () => {
       </FooterWrapper>
       <Route path="/index" exact component={Index} />
       <Route path="/my" component={My} />
+      <Route path="/add" component={Add} />
     </Router>
   )
 }
